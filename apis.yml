@@ -1,7 +1,16 @@
 aid: thinglink
 name: Thinglink
-description: Thinglink is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Thinglink is an educational technology company offering a no-code, AI-powered
+  platform for creating and deploying immersive, interactive learning
+  experiences. Users enrich images, videos, and 360deg / virtual-tour media with
+  clickable "tags" that surface text, audio, links, and embedded content,
+  producing multimodal content for XR, AR, and 360deg training that runs on any
+  device. Thinglink serves K-12 and higher education as well as corporate
+  learning and safety-training teams, and integrates with learning-management
+  systems. It was surfaced as a 500 Global portfolio company and added to the
+  API Evangelist network. Thinglink publishes a public trust center
+  (ISO 27001, GDPR) but exposes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/thinglink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Interactive Media
+- Immersive Learning
+- Virtual Reality
+- 360 Video
+- Corporate Training
+- No-Code
+image: https://cdn.thinglink.me/gfx/opengraph.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://thinglink.com
+- type: Blog
+  url: https://www.thinglink.com/blog
+- type: Support
+  url: https://support.thinglink.com
+- type: Pricing
+  url: https://www.thinglink.com/plans/business
+- type: SignUp
+  url: https://www.thinglink.com/register
+- type: Login
+  url: https://www.thinglink.com/login
+- type: PrivacyPolicy
+  url: https://www.thinglink.com/privacy
+- type: TermsOfService
+  url: https://www.thinglink.com/terms
+- type: TrustCenter
+  url: security/thinglink-trust-center.yml
+- type: Compliance
+  url: https://trust.thinglink.com/
+- type: DomainSecurity
+  url: security/thinglink-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
